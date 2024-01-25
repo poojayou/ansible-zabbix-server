@@ -28,8 +28,8 @@ zabbix_repo_yum:
     state: present
 
 # Database
-zabbix_server_database: pgsql
-zabbix_server_database_long: postgresql
+zabbix_server_database: mysql
+zabbix_server_database_long: mysql
 zabbix_database_creation: True
 zabbix_database_sqlload: True
 
